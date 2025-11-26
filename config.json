@@ -1,24 +1,20 @@
 {
-  "$schema": "./source/schema.json",
   "family_name": "Maple Mono",
   "use_hinted": true,
   "pool_size": 4,
   "enable_ligature": true,
   "ttfautohint_param": {},
-  "github_mirror": "github.com",
-  "infinite_arrow": null,
-  "remove_tag_liga": false,
   "weight_mapping": {
     "thin": 100,
     "extralight": 200,
     "light": 300,
     "regular": 400,
-    "medium": 500,
-    "semibold": 600,
+    "semibold": 500,
+    "medium": 600,
     "bold": 700,
     "extrabold": 800
   },
-  "line_height": 1.0,
+  "line_height": 1,
   "feature_freeze": {
     "cv01": "ignore",
     "cv02": "ignore",
@@ -80,7 +76,7 @@
     "extra_args": []
   },
   "cn": {
-    "enable": false,
+    "enable": true,
     "with_nerd_font": true,
     "fix_meta_table": true,
     "clean_cache": false,
